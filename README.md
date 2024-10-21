@@ -42,16 +42,13 @@ This project is a Python implementation of the classic **Snake Game** using the 
 
 ## Files
 
-### `main.py`: This is the entry point of the game. It initializes the game, listens for key presses to control the snake, and handles the game loop, including collision detection with food, walls, and the snake's tail.
-
-### `snake.py`: Contains the `Snake` class, which handles the movement, creation, and behavior of the snake, including methods to change direction and extend the snake's length.
-
-### `food.py`: Contains the `Food` class, which randomly places food on the screen. The food is represented by a small circle that the snake can "eat" to grow longer.
-
-### `scoreboard.py`: Contains the `Scoreboard` class, which manages the score display and the "Game Over" message. It updates the score each time the snake eats food and ends the game when the snake collides with the wall or its tail.
+`main.py`: This is the entry point of the game. It initializes the game, listens for key presses to control the snake, and handles the game loop, including collision detection with food, walls, and the snake's tail.
+`snake.py`: Contains the `Snake` class, which handles the movement, creation, and behavior of the snake, including methods to change direction and extend the snake's length.
+`food.py`: Contains the `Food` class, which randomly places food on the screen. The food is represented by a small circle that the snake can "eat" to grow longer.
+`scoreboard.py`: Contains the `Scoreboard` class, which manages the score display and the "Game Over" message. It updates the score each time the snake eats food and ends the game when the snake collides with the wall or its tail.
 
 ## Screenshots
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4ac7a623-4c0c-470c-8f00-7b29a22c61d9" alt="snake_game gif" width="400" height="400">
+  <img src="https://github.com/user-attachments/assets/4ac7a623-4c0c-470c-8f00-7b29a22c61d9" alt="snake_game gif" width="300" height="300">
 </p>
 
